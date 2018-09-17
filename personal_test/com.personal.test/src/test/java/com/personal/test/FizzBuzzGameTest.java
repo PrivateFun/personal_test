@@ -7,7 +7,9 @@ public class FizzBuzzGameTest {
 	@Test
 	public void test() {
 		FizzBuzzGame fbg = new FizzBuzzGame();
-		fbg.FunGame();
+		fbg.FunGameStage1();
+		System.out.println("----------------------");
+		fbg.FunGameStage2();
 	}
 
 }
