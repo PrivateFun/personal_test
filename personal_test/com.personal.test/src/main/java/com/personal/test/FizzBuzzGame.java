@@ -43,10 +43,7 @@ public class FizzBuzzGame {
 	}
 	
 	private boolean isInclude_3(int num){
-		if(num == 3){
-			return true;
-		}
-		while(num/10>0){
+		while(num != 0){
 			if (num%10 == 3){
 				return true;
 			}else{
@@ -56,10 +53,7 @@ public class FizzBuzzGame {
 		return false;
 	}
 	private boolean isInclude_5(int num){
-		if(num == 5){
-			return true;
-		}
-		while(num/10>0){
+		while(num != 0){
 			if (num%10 == 5){
 				return true;
 			}else{
