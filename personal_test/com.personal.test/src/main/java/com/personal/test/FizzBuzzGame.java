@@ -24,16 +24,16 @@ public class FizzBuzzGame {
 	
 	public void FunGameStage2(){
 		for (int i=1;i<=100;i++){
-			//divide by 3
+			//divide by 3 or include 3
 			if (i%3 == 0 || isInclude_3(i)){
-				// if can divide by 3 and 5
+				// if can divide by 3 and 5 or include 3 and 5
 				if(i%5 == 0 || isInclude_5(i)){
 					printFizzBuzz();
 				}else{
 					printFizz();
 				}
 			}else if(i%5 == 0 || isInclude_5(i)){
-				// only can divide by 5
+				// only can divide by 5 or include 5
 				printBuzz();
 			}else{
 				// normal numbers
